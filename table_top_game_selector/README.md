@@ -1,4 +1,4 @@
-# table_top_game_chooser
+# table_top_game_selector
 
 An application for choosing which table top game to play
 

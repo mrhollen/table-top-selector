@@ -1,4 +1,4 @@
-package com.hollengraver.table_top_game_chooser
+package com.hollengraver.table_top_game_selector
 
 import android.os.Bundle
 
