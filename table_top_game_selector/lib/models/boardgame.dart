@@ -12,4 +12,17 @@ class BoardGame {
     this.minPlayers = minPlayers;
     this.maxPlayers = maxPlayers;
   }
+
+  BoardGame.fromDatabase({this.name, this.minAge, this.maxAge, this.minPlayers, this.maxPlayers});
+
+
+  Map<String, dynamic> toMap() {
+    return {
+      'name': name,
+      'min_age': minAge,
+      'max_age': maxAge,
+      'min_players': minPlayers,
+      'max_players': maxPlayers
+    };
+  }
 }
