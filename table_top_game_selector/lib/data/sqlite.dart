@@ -14,8 +14,6 @@ class Sqlite {
   }
 
   Future<Database> _getDatabase() async {
-    var testGame = BoardGame("Test Game", 5);
-
     var path = await _getDatabasePath();
     return openDatabase(path,
       onCreate: (db, version) {
